@@ -12,7 +12,7 @@ int main(int argc, char** argv)
 
 	auto app = Hazel::CreateApplication();
 	app->Run();
-	delete app;
+	delete app; 
 }
 
 #endif //  HZ_PLATFORM_WINDOWS
